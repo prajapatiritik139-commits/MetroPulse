@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "MetroPulse",
+  "short_name": "MetroPulse",
+  "description": "Real-time Operations Control Room dashboard for metro transit networks with live tracking, crowd forecasting, asset health, and incident command.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#0B1F3A",
+  "background_color": "#0B1F3A",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

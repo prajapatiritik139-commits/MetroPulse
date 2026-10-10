@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="36" fill="#0B1F3A"/>
+  <!-- Track lines -->
+  <path d="M 36 60 L 80 60 L 132 112 L 156 112" fill="none" stroke="#14B8A6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 156 60 L 112 60 L 60 112 L 36 112" fill="none" stroke="#E11D48" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Junction Node -->
+  <circle cx="96" cy="86" r="18" fill="#0B1F3A" stroke="#14B8A6" stroke-width="5"/>
+  <circle cx="96" cy="86" r="9" fill="#14B8A6"/>
+  <!-- Pulse Wave Rings -->
+  <circle cx="96" cy="86" r="28" fill="none" stroke="#14B8A6" stroke-width="2" stroke-dasharray="3,3" opacity="0.6"/>
+  <text x="96" y="156" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" letter-spacing="1">METROPULSE</text>
+</svg>

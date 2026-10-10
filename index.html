@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetroPulse - Operator Control Room</title>
+    <meta name="description" content="Real-time Operations Control Room dashboard for metro transit networks with live tracking, crowd forecasting, asset health, and incident command." />
+    <meta property="og:title" content="MetroPulse - Operator Control Room" />
+    <meta property="og:description" content="Real-time Operations Control Room dashboard for metro transit networks with live tracking, crowd forecasting, asset health, and incident command." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0B1F3A" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('metropulse_theme');
+          var theme = saved === 'light' ? 'light' : 'dark';
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

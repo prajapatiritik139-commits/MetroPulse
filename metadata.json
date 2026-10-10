@@ -1,0 +1,6 @@
+{
+  "name": "MetroPulse - Operator Control Room",
+  "description": "Real-time Operations Control Room dashboard for metro transit networks with live tracking, crowd forecasting, asset health, and incident command.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

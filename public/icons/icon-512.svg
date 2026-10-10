@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#0B1F3A"/>
+  <!-- Track lines -->
+  <path d="M 96 160 L 210 160 L 350 300 L 416 300" fill="none" stroke="#14B8A6" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 416 160 L 302 160 L 162 300 L 96 300" fill="none" stroke="#E11D48" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Junction Node -->
+  <circle cx="256" cy="230" r="48" fill="#0B1F3A" stroke="#14B8A6" stroke-width="12"/>
+  <circle cx="256" cy="230" r="24" fill="#14B8A6"/>
+  <!-- Pulse Wave Rings -->
+  <circle cx="256" cy="230" r="74" fill="none" stroke="#14B8A6" stroke-width="4" stroke-dasharray="8,8" opacity="0.6"/>
+  <text x="256" y="416" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" letter-spacing="3">METROPULSE</text>
+  <text x="256" y="456" text-anchor="middle" fill="#14B8A6" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" letter-spacing="1">OPERATOR CONTROL ROOM</text>
+</svg>
